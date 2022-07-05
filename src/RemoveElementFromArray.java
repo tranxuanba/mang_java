@@ -7,7 +7,7 @@ public class RemoveElementFromArray {
         int n;
         int[] array;
         int index_del = -1;
-        System.out.println("moi nhap vao so phan tu trong mang");
+        System.out.println("moi nhap vao so phan tu trong oi ban oi mang");
         n = sc.nextInt();
         array = new int[n];
         for (int i = 0; i < array.length; i++) {
@@ -29,7 +29,7 @@ public class RemoveElementFromArray {
                 }
             }
         }
-        System.out.println("mang moi la: ");
+        System.out.println("mang ao that day moi la: ");
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
